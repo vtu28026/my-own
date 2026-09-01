@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class student{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter name : ");
+        String name = sc.nextLine();
+        System.out.print("Enter age :");
+        int age = sc.nextInt();
+        System.out.print("Enter your height :");
+        double height = sc.nextDouble();
+        System.out.print("Enter your grade :");
+        char grade = sc.next().charAt(0);
+        System.out.println("your name :" + name + "\n" + "your age :" + age + "\n" + "your grade :" + grade + "\n" + "your height :" + height);
+    }
+}
